@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    --AMARELO: RGB(255,194,52);
+    --MARROM: RGB(65,31,9);
+    --VERMELHO: RGB(223,28,28);
+}
+
+.cabecalho{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho, ul, li{
+    display: flex;
+    background-color: var(--AMARELO);
+    justify-content: space-around;
+    
+}
+.nav-logo{
+    position: relative;
+}
+.nav-itens{
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui;
+}
+
+
+main{
+    color: var(--MARROM);
+    display: flex;
+    flex-direction: row;
+    background-color: var(--AMARELO);
+}
+
+.div-burguerweek{
+    width: 70%;
+    font-size: 35px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.div-imgs{
+    width: 85%;
+}
+
+.main-img1{
+    width: 15%;
+
+}
+.main-img2{
+    width: 50%;
+}
+
+.tasty{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    /* background-color: var(--AMARELO);    */
+}
+
+.lorem-section{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+    margin: 10px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.lorem-section, div{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: var(--VERMELHO);
+    color: white;
+    font-size: 25px;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+.img-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-form{
+    display: grid;
+    justify-content: center;
+}
+
+input{
+    background-color: var(--AMARELO);
+    width: 55%;
+    max-height: 75px;
+    height: 50px;
+    border-radius: 7%;
+    margin: inherit;
+}
+
+.title-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation{
+    font-size: 25px;
+    font-family: system-ui;
+    padding-top: 30px;
+}
+.book{
+    font-size: 55px;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+.button-form{
+    background-color: var(--VERMELHO);
+    width: 55%;
+    max-height: 75px;
+    height: 50px;
+    border-radius: 7%;
+    margin: inherit;
+}
+
+footer{
+    background-image: url(../img/rodape/fundo.png);
+    height: 50%;
+}
+
+.footer-div1{
+    color: white;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.footer-div2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div3{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-div4{
+    display: flex;
+    justify-content: flex-start;
+}
